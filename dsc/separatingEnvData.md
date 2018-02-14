@@ -81,7 +81,7 @@ Mode                LastWriteTime         Length Name
  
 `$MyData` specifies two different nodes, each with
 its own `NodeName` and `Role`. The configuration dynamically creates **Node** blocks by taking the collection of nodes it gets from `$MyData` (specifically, `$AllNodes`) and filters that collection 
-against the `Role` property..
+against the `Role` property.
 
 ## Using configuration data to define development and production environments
 
